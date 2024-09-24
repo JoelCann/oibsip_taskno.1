@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Nebraska</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2414101aec.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="nunito">
+    <!-- Nav begins here -->
+    <nav class="w-[100vw] flex justify-center">
+      <div class="flex w-[80%] justify-between items-center py-[1.6%]">
+        <div id="logo" class="text-white">
+          <h3 class="text-3xl font-bold tracking-wide">Unwind</h3>
+          <h4 class="text-[0.8rem] font-medium tracking-wide">HOTEL BOOKING</h4>
+        </div>
+        <div id="nav-items">
+          <a href="#" class="px-[1.4rem] text-white">HOME</a>
+          <a href="#" class="px-[1.4rem] text-white unselected">ABOUT</a>
+          <a href="#" class="px-[1.4rem] text-white unselected">ROOMS</a>
+          <a href="#" class="px-[1.4rem] text-white unselected">RESTO & BAR</a>
+          <a href="#" class="px-[1.4rem] text-white unselected">BLOG</a>
+          <a href="#" class="px-[1.4rem] text-white unselected">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section begins here -->
+    <section id="hero-section" class="h-[100vh] w-[100vw]">
+      <div class="hero-description overlay text-white">
+        <h4 class="text-[0.8rem] font-medium tracking-wide">
+          ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!
+        </h4>
+        <h1 class="mid-txt text-[4.5rem] font-bold tracking-wide">
+          Most Relaxing Place
+        </h1>
+        <div>
+          <button class="brown-btn nunito">TAKE A TOUR</button>
+          <button class="transparent-btn nunito">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Query Section -->
+    <section id="query">
+      <div id="query-container">
+        <div id="query1">
+          <div class="check-in">
+            <h4>CHECK-IN</h4>
+            <div>
+              <i class="icon fa-regular fa-calendar-days mr-[8px]"></i>
+              <input class="txt-area" type="text" placeholder="Check-in date" />
+            </div>
+          </div>
+          <div class="check-out">
+            <h4>CHECK-OUT</h4>
+            <div>
+              <i class="icon fa-regular fa-calendar-days mr-[8px]"></i>
+              <input
+                class="txt-area"
+                type="text"
+                placeholder="Check-out date"
+              />
+            </div>
+          </div>
+
+          <div class="rooms">
+            <h4>ROOMS</h4>
+            <div>
+              <i class="icon fa-solid fa-angle-down mr-[8px]"></i>
+              <select class="dropdown" name="rooms" id="rooms">
+                <option value="Suite">Suite</option>
+                <option value="Family Room">Family Room</option>
+                <option value="Classic Room">Classic Room</option>
+                <option value="Superior Room">Superior Room</option>
+                <option value="Luxury Room">Luxury Room</option>
+              </select>
+            </div>
+          </div>
+          <div class="guests">
+            <h4>GUESTS</h4>
+            <div>
+              <i class="icon fa-solid fa-angle-down mr-[8px]"></i>
+              <select class="dropdown" name="rooms" id="rooms">
+                <option value="1 Person">1 Person</option>
+                <option value="2 Persons">2 Persons</option>
+                <option value="3 Persons">3 Persons</option>
+                <option value="4 Persons">4 Persons</option>
+                <option value="5 Persons">5 Persons</option>
+                <option value="6-9 Persons">6-9 Persons</option>
+                <option value="10+ Persons">10+ Persons</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="query2">
+          <div class="chk-avail">
+            <h4>CHECK<br />AVAILABILITY</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us">
+      <div id="about-us-container" class="">
+        <div id="about-us-cards" class="w-[40%] flex">
+          <div id="left-gallery" class="">
+            <div id="card1" class="w-[300px] h-[276px] mx-6">
+              <img
+                class="h-[72px] w-[105px]"
+                src="./images/cozy-icon.png"
+                alt="icon of a pillow"
+              />
+              <h3 class="old-standard">Cozy Room</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia.
+              </p>
+            </div>
+            <div id="card2" class="w-[300px] h-[230px] mx-6"></div>
+          </div>
+          <div id="right-gallery" class="">
+            <div id="card3" class="w-[300px] h-[230px]"></div>
+            <div id="card4" class="w-[300px] h-[276px]">
+              <img
+                class="h-[72px] w-[80px]"
+                src="./images/special-icon.png"
+                alt="icon of an emblem"
+              />
+              <h3 class="old-standard">Special Offers</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="about-us-description" class="w-[47%]">
+          <h4 class="sub-header">ABOUT US</h4>
+          <h2 class="old-standard text-[4.1rem]">
+            Unwind, A Hotel Booking Agency
+          </h2>
+          <p class="nunito">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.
+          </p>
+          <button>BOOK YOUR ROOM NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+      <div id="services-cointainer">
+        <div class="headings">
+          <h4 class="sub-header">UNWIND SERVICES</h4>
+          <h2 class="header">Explore Our Hotel Services</h2>
+        </div>
+        <div class="icon-cards">
+          <div class="icon-card">
+            <img src="./images/ico-1.png" alt="image of Wifi" />
+            <h2>Free Wifi</h2>
+          </div>
+          <div class="icon-card">
+            <img src="./images/ico-6.png" alt="image of Wifi" />
+            <h2>Easy Booking</h2>
+          </div>
+          <div class="icon-card">
+            <img src="./images/ico-5.png" alt="image of Wifi" />
+            <h2>Restaurant</h2>
+          </div>
+          <div class="icon-card">
+            <img src="./images/ico-4.png" alt="image of Wifi" />
+            <h2>Swimming Pool</h2>
+          </div>
+          <div class="icon-card">
+            <img src="./images/ico-3.png" alt="image of Wifi" />
+            <h2>Beauty & Health</h2>
+          </div>
+          <div class="icon-card">
+            <img src="./images/ico-2.png" alt="image of Wifi" />
+            <h2>Help & Support</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Black bar -->
+    <section id="black-bar">
+      <div class="bb-overlay">
+        <div id="black-bar-container">
+          <div class="desc">
+            <h4 class="sub-header">FIND THE BEST HOTEL FOR LEAVING</h4>
+            <h2 class="header">Find The Best Hotel For Your Next Vacation</h2>
+          </div>
+          <div class="btn">
+            <button>BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Rooms -->
+    <section id="featured-rooms">
+      <div id="f-rooms">
+        <div class="headings">
+          <h4 class="sub-header">OUR ROOMS</h4>
+          <h2 class="old-standard text-[4.1rem]">Featured Rooms</h2>
+        </div>
+        <div class="room-cards">
+          <div class="room-card">
+            <div class="card-desc">
+              <h3 class="old-standard text-[1.8rem] pb-[10px]">Suite Room</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+                qui voluptatibus officiis pariatur quis praesentium
+              </p>
+              <div class="linkz">
+                <h5>$450 / Night</h5>
+                <button>BOOK NOW</button>
+              </div>
+            </div>
+            <div class="card-img-1"></div>
+          </div>
+          <div class="room-card">
+            <div class="card-img-2"></div>
+
+            <div class="card-desc">
+              <h3 class="old-standard text-[1.8rem] pb-[10px]">Family Room</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+                qui voluptatibus officiis pariatur quis praesentium
+              </p>
+              <div class="linkz">
+                <h5>$750 / Night</h5>
+                <button>BOOK NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="room-card">
+            <div class="card-desc">
+              <h3 class="old-standard text-[1.8rem] pb-[10px]">Deluxe Room</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+                qui voluptatibus officiis pariatur quis praesentium
+              </p>
+              <div class="linkz">
+                <h5>$1000 / Night</h5>
+                <button>BOOK NOW</button>
+              </div>
+            </div>
+            <div class="card-img-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <!-- <section id="footer">
+      <div id="footer-container">
+        <div id="section1">
+          <div id="logo" class="text-white mb-[40px]">
+            <h3 class="text-3xl font-bold tracking-wide">Unwind</h3>
+            <h4 class="text-[0.8rem] font-medium tracking-wide">
+              HOTEL BOOKING
+            </h4>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi nulla
+            qui dolores.
+          </p>
+          <div class="sm"></div>
+        </div>
+        <div id="section2">Services</div>
+        <div id="section3">Quick Links</div>
+      </div>
+      <div id="section4">Have a Question</div>
+    </section> -->
+  </body>
+</html>

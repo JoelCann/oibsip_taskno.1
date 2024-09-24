@@ -1,0 +1,497 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+}
+
+#nav-items a {
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+#hero-section {
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#nav-items .unselected {
+  opacity: 0.7;
+}
+
+.mid-txt {
+  font-family: "Old Standard TT", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.old-standard {
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.brown-btn {
+  background-color: #c5a880;
+  padding: 0.8rem 1.5rem;
+}
+
+.transparent-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  padding: 0.6rem 1.5rem;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <1000>;
+  font-style: normal; */
+}
+
+/* Query Section ------------------------------------------------ */
+
+#query {
+  background-color: #f8f8f8;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+}
+
+#query-container {
+  width: 78.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  height: 9.7rem;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: -77.5px;
+  left: 50%;
+  margin-left: -657px;
+}
+
+#query1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222222;
+  width: 83.6%;
+  height: 9.7rem;
+}
+
+#query2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #c5a880;
+  width: 16.4%;
+  height: 9.7rem;
+}
+
+#query1 h4 {
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.txt-area {
+  background: #222222;
+}
+
+::placeholder {
+  color: #656565;
+  appearance: none;
+  font-size: 1rem;
+  opacity: 0.1;
+}
+
+.icon {
+  color: #656565;
+}
+
+.chk-avail {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+select {
+  background: #222222;
+  border: none;
+  color: #656565;
+  appearance: none;
+}
+
+option {
+  color: #656565;
+}
+
+/* About Us Section  ------------------------------------------ */
+
+#about-us {
+  background-color: #f8f8f8;
+  padding: 208px 0 128px;
+  width: 100vw;
+}
+
+#about-us-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* column-gap: 10rem; */
+  justify-content: space-between;
+}
+
+#card1 {
+  background-color: white;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card1 p {
+  font-size: 1rem;
+  line-height: 28.8px;
+  color: #999999;
+  margin: 16px 24px;
+  text-align: center;
+}
+
+#card1 h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#card2 {
+  background-image: url(./images/special-offers.png);
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url(./images/cozy-room.png);
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+#card4 {
+  background-color: white;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card4 p {
+  font-size: 1rem;
+  line-height: 28.8px;
+  color: #999999;
+  margin: 16px 24px;
+  text-align: center;
+}
+
+#card4 h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#about-us-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-header {
+  color: #c5a880;
+  line-height: 23.4px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.header {
+  font-size: 4.1rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 89.6px;
+}
+
+#about-us-description p {
+  line-height: 28.8px;
+  color: #999999;
+  margin-bottom: 48px;
+}
+
+#about-us-description button {
+  line-height: 18px;
+  background-color: #c5a880;
+  margin-bottom: 16px;
+  font-size: 0.75rem;
+  height: 52px;
+  width: 215px;
+  color: white;
+}
+
+/* Services section -------------------------------------------- */
+
+#services {
+  padding: 128px 0;
+  background-color: #f8f8f8;
+  width: 100vw;
+}
+
+#services-cointainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 76px;
+}
+
+.icon-cards {
+  display: flex;
+}
+
+.icon-card {
+  background-color: white;
+  height: 184px;
+  width: 196px;
+  border-radius: 50% 50% 50% 0;
+  box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  margin: 0 12px;
+}
+
+.icon-card h2 {
+  font-size: 20px;
+  line-height: 28.8px;
+  font-weight: 600;
+}
+
+.icon-card img {
+  padding: 0;
+}
+
+/* Black bar ---------------------------------------- */
+#black-bar {
+  width: 100vw;
+  height: 224px;
+  padding: 48px 0;
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.bb-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.747);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#black-bar-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.desc {
+  width: 562px;
+  padding: 0 12px;
+}
+
+#black-bar .header {
+  font-size: 2.5rem;
+  line-height: 60px;
+  color: white;
+}
+
+.sub-header {
+  width: 538px;
+}
+
+#black-bar button {
+  background-color: #c5a880;
+  padding: 24px 48px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 28.8px;
+}
+
+.btn {
+  padding: 0 12px;
+  height: 148px;
+  width: 293px;
+  display: flex;
+  align-items: center;
+}
+
+/* Featured Rooms */
+
+#featured-rooms {
+  width: 100vw;
+  padding: 128px 0;
+  background-color: #f8f8f8;
+}
+
+#f-rooms {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-desc {
+  padding: 48px 48px;
+  width: 415px;
+  height: 282px;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+}
+
+.room-cards {
+  display: flex;
+}
+
+.room-card {
+  padding: 0 12px;
+}
+
+.room-card p {
+  font-size: 1rem;
+  line-height: 28.8px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.card-img-1 {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-2 {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-3 {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 31px;
+}
+
+.linkz h5 {
+  color: #c5a880;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+
+.linkz button {
+  background-color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 28.8px;
+  border: 1px solid rgba(0, 0, 0, 0.076);
+  padding: 1px 6px;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #1a1a1a;
+}
+
+#footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#footer-container p {
+  color: rgba(255, 255, 255, 0.701);
+}
+
+.section1 {
+  width: 106px;
+}
